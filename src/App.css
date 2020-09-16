@@ -1,22 +1,16 @@
+*{
+  font-family: 'Barlow', sans-serif;
+}
 .App {
   text-align: center;
+  margin-top: 2rem;
 }
-
-.App-logo {
-  height: 40vmin;
+.popup-overlay{
+    background-color: rgba(0,128,255,0.75)!important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#popup-1{
+  border-radius: 8px;
 }
-
-.App-link {
-  color: #09d3ac;
+.popup-content{
+  width:auto!important;
 }

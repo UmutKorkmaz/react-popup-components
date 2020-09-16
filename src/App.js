@@ -1,24 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Popup from "./components/reactjs-popup";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link border-b-2 border-gray-200"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Popup icon="ri-account-circle-line" link="Informative Popup" title="Setting Changed" content="Account change made successfully" button="OK" buttonStyle="bg-blue-700 text-white"/>
     </div>
   );
 }

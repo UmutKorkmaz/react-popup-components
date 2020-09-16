@@ -2,6 +2,8 @@ This project is a fork of [CRA Tailwind demo](https://github.com/adamwathan/cra-
 
 The current script is unable to minimize the build file with postcss config. So I included tailwind.config.js to build a minimized css build.
 
+[![Run on Repl.it](https://repl.it/badge/github/choyan/tailwind-cra)](https://repl.it/github/choyan/tailwind-cra)
+
 ## Available Scripts
 
 In the project directory, you can run:
